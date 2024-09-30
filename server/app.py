@@ -31,12 +31,12 @@ def math(num1, operation, num2):
         result = num1 * num2
     elif operation == "div":
         if num2 == 0:
-            return "<p>Division by zero is not allowed.</p>"
+            return "Division by zero is not allowed."
         result = num1 / num2
     elif operation == "%":
         result = num1 % num2
     else:
-        return "<p>Invalid operation. Please use one of +, -, *, div, or %.</p>"
+        return "Invalid operation"
 
     return f"{result}"
 
